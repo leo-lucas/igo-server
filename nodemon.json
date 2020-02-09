@@ -1,0 +1,17 @@
+{
+    "restartable": "rs",
+    "watch": [
+        "src"
+    ],
+    "igonore": [
+        "node_modules"
+    ],
+    "verbose": true,
+    "ext": "ts",
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "execMap": {
+        "ts": "ts-node src/main.ts"
+    }
+}
