@@ -1,5 +1,5 @@
 import { Resolver, Query, Arg, Mutation } from 'type-graphql'
-import { Lista, Repository } from '../Model/Lista'
+import { Lista, Repository } from '../../Model/Lista'
 
 @Resolver(Lista)
 export class ListaResolver {
